@@ -13,8 +13,8 @@ int main()
             znak = getch();
             std::cout << "*znak: '" << znak << "' kod: " << static_cast < int >( znak ) << std::endl;
         }
-        std::cout << std::endl;
-    } while( znak != 27 ); //ESC
+//        std::cout << std::endl;
+//    } while( znak != 27 ); //ESC
 
     return( 0 );
 }
